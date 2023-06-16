@@ -1,16 +1,52 @@
 import React from "react";
 import { useDictionary } from "../../hooks/useDictionary";
 import { ImageBackground } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-import { Box, Flex, Heading, Row, ScrollView, Text, VStack } from "native-base";
+import {
+  Box,
+  Button,
+  Center,
+  Flex,
+  Heading,
+  Image,
+  Row,
+  ScrollView,
+  Text,
+  VStack,
+} from "native-base";
+import InfoBox from "../../components/InfoBox";
 
 const Home = () => {
-  const { home: dictionary, travel } = useDictionary();
+  const navigation = useNavigation();
+  const { home: dictionary, travel, faq } = useDictionary();
 
   return (
     <ScrollView>
       <Flex justifyItems="start" alignItems="start" px="4" py="5">
-        <Heading>{dictionary.title}</Heading>
+        <Heading fontSize="2xl">
+          {dictionary.slidertext1}{" "}
+          <Text color="purple.600">{dictionary.slidertext2}</Text>
+        </Heading>
+        <Text fontSize="lg">
+          {dictionary.description1} {dictionary.description2}
+        </Text>
+        <Row width="100%" mt={3} alignItems="center" justifyContent="center">
+          <Image
+            height={300}
+            width={300}
+            source={require("../../assets/location.png")}
+          />
+        </Row>
+        <Button
+          onPress={() => navigation.navigate("Budget")}
+          backgroundColor="purple.600"
+          width="full"
+          marginBottom="10"
+        >
+          Fazer orçamento
+        </Button>
+        <Heading fontSize="xl">{dictionary.title}</Heading>
         <Row mt={3} alignItems="center" justifyContent="center">
           <Text fontSize="md">
             {dictionary.description1}
@@ -39,6 +75,19 @@ const Home = () => {
                 </Box>
               </ImageBackground>
             </Box>
+          ))}
+        </VStack>
+        <Heading marginTop="5" color="purple.600">
+          FAQ
+        </Heading>
+        <Text>{faq.disclaimer}</Text>
+        <VStack w="full" mt="5" space={2}>
+          {faq.questions.map((question) => (
+            <InfoBox
+              icon={question.icon}
+              title={question.question}
+              description={question.answer}
+            />
           ))}
         </VStack>
       </Flex>

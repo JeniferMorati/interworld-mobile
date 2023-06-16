@@ -3,10 +3,8 @@ const dictionary = () => ({
     destinations: "Destinos",
     budget: "Orçamento",
     aboutUs: "Sobre",
-    login: "Entrar",
-    signUp: "Cadastrar",
-    logOut: "Sair",
-    home: "Home",
+    profile: "Perfil",
+    config: "Configurações",
   },
   home: {
     slidertext1: "Faça o seu intercâmbio",
@@ -20,38 +18,33 @@ const dictionary = () => ({
       "Encontre abaixo as respostas para as perguntas mais frequentes",
     questions: [
       {
-        icon: "far fa-paper-plane",
+        icon: "book",
         question: "Que documentos pessoais necessito para viajar?",
         answer: "Voucher de Reserva, Documento original com foto (RG, CNH)",
       },
       {
-        icon: "fas fa-pen-alt",
+        icon: "receipt",
         question: "Preciso de visto?",
         answer:
           "Depende do destino da sua viagem! Dentro da União Europeia e na America é necessario cartão de cidadão válido e passaporte valido.",
       },
       {
-        icon: "fas fa-user",
+        icon: "baby-face",
         question:
           "Vou viajar com um menor. Há alguma especificidade que deva considerar?",
         answer:
           "Sim, deve conter uma autorização de saída do país sempre que viajarem.",
       },
       {
-        icon: "fas fa-rocket",
+        icon: "rocket",
         question: "É preciso ir até agência para comprar alguma viagem?",
         answer: "Não, Somos uma plataforma 100% digital.",
       },
       {
-        icon: "fas fa-home",
+        icon: "cash",
         question: "Como faço meu Orçamento?",
         answer:
           "Clique na pagina Orçamento e preencha os campos com seus dados.",
-      },
-      {
-        icon: "fas fa-book-open",
-        question: "Onde posso encontrar todos os Destinos?",
-        answer: "Clique na Pagina Destinos para conhecer todos os Paises!",
       },
     ],
   },
@@ -137,7 +130,7 @@ const dictionary = () => ({
       },
       {
         name: "Espanha",
-				image: require('../assets/esp.jpg'),
+        image: require("../assets/esp.jpg"),
         cities: [
           {
             name: "Madri",
@@ -163,7 +156,7 @@ const dictionary = () => ({
       },
       {
         name: "França",
-				image: require('../assets/france.jpg'),
+        image: require("../assets/france.jpg"),
         cities: [
           {
             name: "Paris",
@@ -223,6 +216,17 @@ const dictionary = () => ({
     startDate: "Data de inicio",
     endDate: "Data de fim",
     send: "Enviar",
+  },
+  config: {
+    title: "Configurações",
+    languages: "Idiomas",
+  },
+  profile: {
+    logged: "Logado",
+    email: "Email",
+    password: "Senha",
+    signIn: "Entrar",
+    signUp: "Cadastrar",
   },
 });
 

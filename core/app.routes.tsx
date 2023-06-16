@@ -9,7 +9,7 @@ export const AppRouter = () => {
   const { navigation: navigationLabel } = useDictionary();
 
   return (
-    <Tab.Navigator initialRouteName="Feed">
+    <Tab.Navigator initialRouteName="Config">
       <Tab.Screen
         name="Feed"
         component={Pages.Home}
@@ -27,7 +27,7 @@ export const AppRouter = () => {
       />
       <Tab.Screen
         name="Budget"
-        component={Pages.Home}
+        component={Pages.Budget}
         options={{
           headerShown: false,
           tabBarLabel: navigationLabel.budget,
@@ -49,12 +49,23 @@ export const AppRouter = () => {
       />
       <Tab.Screen
         name="Profile"
-        component={Pages.Home}
+        component={Pages.Login}
         options={{
           headerShown: false,
-          tabBarLabel: navigationLabel.login,
+          tabBarLabel: "Perfil",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="account" color={color} size={20} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Config"
+        component={Pages.Config}
+        options={{
+          headerShown: false,
+          tabBarLabel: "Configurações",
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="cog" color={color} size={20} />
           ),
         }}
       />

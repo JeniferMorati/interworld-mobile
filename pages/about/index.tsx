@@ -19,7 +19,7 @@ const About = () => {
     <ScrollView>
       <Flex justifyItems="start" alignItems="start" px="4" py="5">
         <Heading>{dictionary.title}</Heading>
-        <Text fontSize="md" mt="4">
+        <Text fontWeight="thin" lineHeight="md" fontSize="md" mt="4">
           {dictionary.textaboutus}
         </Text>
         <VStack w="full" mt="5" space={2}>

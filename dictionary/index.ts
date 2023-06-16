@@ -16,8 +16,11 @@ const selectDictionary = (language: string) => {
       break;
   }
 
-  const overwriteMerge = (destinationArray: any, sourceArray: any, options: any) =>
-    sourceArray;
+  const overwriteMerge = (
+    destinationArray: any,
+    sourceArray: any,
+    options: any
+  ) => sourceArray;
 
   return merge(defaultDictionary(), selectedlanguage, {
     arrayMerge: overwriteMerge,
