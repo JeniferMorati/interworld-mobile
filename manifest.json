@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "interworld-mobile",
-  "short_name": "interworld-mobile",
+  "name": "interworld",
+  "short_name": "interworld",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait"
 }

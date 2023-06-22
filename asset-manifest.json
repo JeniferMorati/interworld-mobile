@@ -1,7 +1,7 @@
 {
   "files": {
     "main.js": "/GeekyAnts/nativebase-templates/static/js/main.5f057e89.js",
-    "static/js/844.3d1768ba.js": "/GeekyAnts/nativebase-templates/static/js/844.3d1768ba.js",
+    "static/js/844.13b18fce.js": "/GeekyAnts/nativebase-templates/static/js/844.13b18fce.js",
     "static/media/esp.jpg": "/GeekyAnts/nativebase-templates/static/media/esp.8084906202c0a96d295a.jpg",
     "static/media/canada.jpg": "/GeekyAnts/nativebase-templates/static/media/canada.7464d2b26d0063befeb3.jpg",
     "static/media/france.jpg": "/GeekyAnts/nativebase-templates/static/media/france.61bf69b046080d41fd4f.jpg",
@@ -16,10 +16,10 @@
     "manifest.json": "/GeekyAnts/nativebase-templates/manifest.json",
     "serve.json": "/GeekyAnts/nativebase-templates/serve.json",
     "main.5f057e89.js.map": "/GeekyAnts/nativebase-templates/static/js/main.5f057e89.js.map",
-    "844.3d1768ba.js.map": "/GeekyAnts/nativebase-templates/static/js/844.3d1768ba.js.map"
+    "844.13b18fce.js.map": "/GeekyAnts/nativebase-templates/static/js/844.13b18fce.js.map"
   },
   "entrypoints": [
-    "static/js/844.3d1768ba.js",
+    "static/js/844.13b18fce.js",
     "static/js/main.5f057e89.js"
   ]
 }
