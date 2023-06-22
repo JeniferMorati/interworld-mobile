@@ -9,7 +9,7 @@ export const AppRouter = () => {
   const { navigation: navigationLabel } = useDictionary();
 
   return (
-    <Tab.Navigator initialRouteName="Config">
+    <Tab.Navigator initialRouteName="Feed">
       <Tab.Screen
         name="Feed"
         component={Pages.Home}
