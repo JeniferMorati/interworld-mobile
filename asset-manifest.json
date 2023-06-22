@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/interworld-mobile/static/js/main.715b1742.js",
-    "static/js/844.1080861d.js": "/interworld-mobile/static/js/844.1080861d.js",
+    "main.js": "/interworld-mobile/static/js/main.e0ad1e7e.js",
+    "static/js/988.5c5fbf5a.js": "/interworld-mobile/static/js/988.5c5fbf5a.js",
     "static/media/esp.jpg": "/interworld-mobile/static/media/esp.8084906202c0a96d295a.jpg",
     "static/media/canada.jpg": "/interworld-mobile/static/media/canada.7464d2b26d0063befeb3.jpg",
     "static/media/france.jpg": "/interworld-mobile/static/media/france.61bf69b046080d41fd4f.jpg",
@@ -15,11 +15,11 @@
     "favicon-16.png": "/interworld-mobile/favicon-16.png",
     "manifest.json": "/interworld-mobile/manifest.json",
     "serve.json": "/interworld-mobile/serve.json",
-    "main.715b1742.js.map": "/interworld-mobile/static/js/main.715b1742.js.map",
-    "844.1080861d.js.map": "/interworld-mobile/static/js/844.1080861d.js.map"
+    "main.e0ad1e7e.js.map": "/interworld-mobile/static/js/main.e0ad1e7e.js.map",
+    "988.5c5fbf5a.js.map": "/interworld-mobile/static/js/988.5c5fbf5a.js.map"
   },
   "entrypoints": [
-    "static/js/844.1080861d.js",
-    "static/js/main.715b1742.js"
+    "static/js/988.5c5fbf5a.js",
+    "static/js/main.e0ad1e7e.js"
   ]
 }
