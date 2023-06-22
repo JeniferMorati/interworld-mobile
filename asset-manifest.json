@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/GeekyAnts/nativebase-templates/static/js/main.5f057e89.js",
+    "static/js/844.3d1768ba.js": "/GeekyAnts/nativebase-templates/static/js/844.3d1768ba.js",
+    "static/media/esp.jpg": "/GeekyAnts/nativebase-templates/static/media/esp.8084906202c0a96d295a.jpg",
+    "static/media/canada.jpg": "/GeekyAnts/nativebase-templates/static/media/canada.7464d2b26d0063befeb3.jpg",
+    "static/media/france.jpg": "/GeekyAnts/nativebase-templates/static/media/france.61bf69b046080d41fd4f.jpg",
+    "static/media/usa.jpg": "/GeekyAnts/nativebase-templates/static/media/usa.df3f31dbb09cfd7462a3.jpg",
+    "static/media/MaterialCommunityIcons.ttf": "/GeekyAnts/nativebase-templates/static/media/MaterialCommunityIcons.a7629910d13716b7080c.ttf",
+    "static/media/ing.jpg": "/GeekyAnts/nativebase-templates/static/media/ing.ddfb192980e6e68f975f.jpg",
+    "static/media/location.png": "/GeekyAnts/nativebase-templates/static/media/location.c56d358d202d69bfb309.png",
+    "favicon.ico": "/GeekyAnts/nativebase-templates/favicon.ico",
+    "index.html": "/GeekyAnts/nativebase-templates/index.html",
+    "favicon-32.png": "/GeekyAnts/nativebase-templates/favicon-32.png",
+    "favicon-16.png": "/GeekyAnts/nativebase-templates/favicon-16.png",
+    "manifest.json": "/GeekyAnts/nativebase-templates/manifest.json",
+    "serve.json": "/GeekyAnts/nativebase-templates/serve.json",
+    "main.5f057e89.js.map": "/GeekyAnts/nativebase-templates/static/js/main.5f057e89.js.map",
+    "844.3d1768ba.js.map": "/GeekyAnts/nativebase-templates/static/js/844.3d1768ba.js.map"
+  },
+  "entrypoints": [
+    "static/js/844.3d1768ba.js",
+    "static/js/main.5f057e89.js"
+  ]
+}
